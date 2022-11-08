@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: fuenteBrayNotes;
+  src: url(/AlverAB/fonts/Bray\ Notes.ttf);
+}
+
+body {
+  font-family: fuenteBrayNotes;
+}
+.container {
+  position: relative;
+  background-color: white;
+  width: 1200px;
+  height: 650px;
+  margin-left: 85px;
+  border: 5px solid black;
+}
+.header {
+  background-color: white;
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+.main {
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+  padding-top: 100px;
+}
+.secction1 {
+  float: left;
+  background-color: #fff;
+  width: 48%;
+  height: 590px;
+  padding-top: 25px;
+}
+#secction1-content {
+  background-color: antiquewhite;
+  height: 525px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+.secction2 {
+  float: right;
+  background-color: white;
+  margin-right: 20px;
+  width: 50%;
+  height: 550px;
+  text-align: center;
+  padding-top: 25px;
+}
+.footer {
+  bottom: 0;
+  background-color: red;
+  width: 1200px;
+  height: 40px;
+  text-align: right;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+img {
+  padding-top: 10px;
+  width: 65px;
+  height: 65px;
+  display: flex;
+}
+#tituloArbolBinanio {
+  padding-top: 20px;
+  margin-top: 0%;
+  color: black;
+  margin-left: 10px;
+}
+
+#tituloCab {
+  justify-content: center;
+  display: flex;
+  background-color: #fff;
+  width: 1170px;
+  height: 75px;
+}
+#network {
+  margin-top: 50px;
+  background-color: #fff;
+  width: 600px;
+  height: 525px;
+  border: 1px solid black;
+}
+#methods-content {
+  padding-left: 3px;
+  width: 480px;
+  height: 300px;
+  column-count: 2;
+  column-rule: dotted 4px black;
+  background-color: #fff;
+}
+
+.botones-recorridos {
+  padding-top: 10px;
+}
+#recorridos-content {
+  margin-top: 100px;
+  padding-top: 16px;
+  background-color: #fff;
+}
+#secction1-content {
+  background-color: #fff;
+  margin-top: 50px;
+  width: 560px;
+  height: 120px;
+}
